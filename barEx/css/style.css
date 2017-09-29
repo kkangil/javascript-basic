@@ -1,0 +1,27 @@
+*{ margin: 0; padding: 0; }
+li{ list-style: none;}
+
+.bar-menu{ height: 78px; border: 7px solid #eee; display: inline-block;
+    position: relative; cursor: pointer; 
+    text-align: center; top: 100px; left: 100px;
+}
+.menu-body{
+    height: 100%; position: relative; margin-top: 10px;
+}
+.menu-body li{ height: 30px; padding: 10px; margin: 0 10px;
+    float: left; text-align: center; line-height: 30px;
+    border: 4px solid #000; display: inline-block;
+}
+.bar{
+    width: 0px; height: 10px; background-color: #f00;
+    position: absolute; left: 0; bottom: 0;
+}
+/*select menu item*/
+.menu-body li.select{
+    background-color: #ff0;
+}
+
+/*over menu item*/
+.menu-body li.over{
+    background-color: #eee;
+}

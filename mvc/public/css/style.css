@@ -1,0 +1,8 @@
+.login{ width: 400px; margin: 50px auto;
+    border: 1px solid #ccc; padding: 20px;
+    box-sizing: border-box; border-radius: 5px;
+}
+
+.login_complete{ text-align: center; padding: 30px;}
+.logout_btn{ text-align: center; margin: 20px;}
+.logout_btn a{ color: inherit; padding: 10px;}

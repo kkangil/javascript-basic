@@ -1,0 +1,17 @@
+* { margin: 0; padding: 0;}
+li { list-style: none;}
+a { text-decoration: none;}
+img { vertical-align: top; }
+.wrapper{ width: 1200px; margin: 0 auto;}
+.clearfix::after{ content: ''; display: block; clear: both;}
+
+.container{ margin: 10px;}
+.btn{ border-bottom: 1px solid #000; margin-bottom: 10px;}
+.btn button{ padding: 5px 10px; margin-bottom: 10px;
+    border: none; border-radius: 5px; background-color: yellowgreen;
+    color: #fff;
+}
+.poster{ position: relative; }
+.poster img{ width: 180px; height: 250px; position: absolute;
+    top: 0; left: 0; transition: all .4s ease;
+}
